@@ -1,0 +1,81 @@
+html, body{
+font-family:Roboto, sans-serif;
+margin: 0;
+background-color: #F37200;
+}
+header{
+background-color: #02050A;
+background-image: url('haikyuu5.png'); /* Replace 'your-image-url.jpg' with the actual path to your image */
+background-repeat: no-repeat; 
+background-position: center;
+padding-top: 50px;
+height: 600px;
+}
+header img{
+width: 470px;
+float: right;
+margin-top: 220px;
+}
+
+.h1{
+font-size: 42px;
+color:  #F39400;
+text-align: center;
+margin-left: 290px;
+margin-top: 450px;
+
+}
+.about{
+color: black;
+background-color: #FF8E34;
+text-align: center;
+padding: 40px;
+margin-top: 90px;
+}
+.char{
+color: black;
+background-color: #FF8E34;
+text-align: center;
+padding: 40px;
+}
+h2{
+text-align: center;
+color:;
+}
+.big-image{
+max-width: 700%;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 60vh; 
+}
+.horizontal-bullets{
+background-color: #02050A;
+color: white;
+text-align: center;
+font-size: 15px;
+list-style-type: none;
+padding: 25px;
+}
+.horizontal-bullets li{
+display: inline-block;
+margin-right: 20px;
+}
+a{
+color: red;
+text-decoration: none;
+}
+
+footer{
+margin-top: 20px;
+padding: 25px;
+background-color: #02050A;
+color: white;
+}
+footer ul{
+text-align: center;
+}
+footer ul li{
+display: inline-block;
+margin: 0 5px;
+}
